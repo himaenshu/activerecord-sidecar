@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.licenses      = ['MIT']
   spec.authors       = ["Himanshu Joshi"]
   spec.email         = ["himaenshu@gmail.com"]
-  spec.summary       = "Active Record Sidecar is the ruby gem for creating/dropping of views, synonyms and db links."
+  spec.summary       = "Active Record Sidecar is the ruby gem for creating/dropping of views, synonyms and db-links using migrations."
   spec.homepage      = "https://github.com/himaenshu/active-record-sidecar"
-  spec.files         = ["lib/active-record-sidecar.rb"]
+  spec.files         = ["lib/active_record_sidecar.rb"]
   spec.require_paths = ["lib"]
 end
