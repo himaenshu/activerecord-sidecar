@@ -1,2 +1,2 @@
 # active-record-sidecar
-Additional methods to create and drop synonyms, views and db-links
+Active Record Sidecar is the ruby gem for creating/dropping of views, synonyms and db-links using migrations.
