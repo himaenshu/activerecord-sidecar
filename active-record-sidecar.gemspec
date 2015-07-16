@@ -9,6 +9,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["himaenshu@gmail.com"]
   spec.summary       = "Active Record Sidecar is the ruby gem for creating/dropping of views, synonyms and db-links using migrations."
   spec.homepage      = "https://github.com/himaenshu/active-record-sidecar"
-  spec.files         = ["lib/active_record_sidecar.rb"]
+  spec.files         = Dir.glob("lib/**/*") + %w(License.txt README.md)
   spec.require_paths = ["lib"]
+  spec.autorequire 	 = 'builder'
+  spec.has_rdoc  		 = false
 end
